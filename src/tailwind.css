@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* $about-primary:rgb(224, 154, 176);
+$about-secondary: rgb(42, 83, 158);
+$projects-primary:rgb(223, 234, 255);
+$projects-secondary: rgb(50, 134, 140);
+$education-primary:rgb(52, 64, 48);
+$education-secondary: rgb(254, 203, 160);
+$first-scene-primary:rgb(52, 64, 48);
+$first-scene-secondary: rgb(254, 203, 160);
+$experience-primary:rgb(237, 245, 248);
+$experience-secondary: rgb(28, 83, 118);
+$skills-primary: rgb(255, 255, 255);
+$skills-secondary:  rgb(234, 176, 154); */
+
+.bg-salmon {
+    background-color: #eab19a;
+}
+
+.bg-light-blue {
+    background-color: #9ac3ea;
+}
+
+.bg-teal {
+    background-color: #7be8c9;
+}
+
+.bg-light-blue {
+    background-color: #83dcf2;
+}
+
+.bg-yellow {
+    background-color: #ede379;
+}
+
+.bg-uncw-teal {
+    background-color: #199183;
+}
+
+.bg-green {
+    background-color: #89cc9b
+}
