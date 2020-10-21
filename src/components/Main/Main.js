@@ -36,7 +36,7 @@ const Main = () => {
 											high-quality software
 										</p>
 
-										<div className="flex text-sm mt-4 flex-wrap">
+										<div className="flex text-sm mt-4 flex-wrap sm-max:justify-center">
 											<a href="mailto:brittonkdeets@gmail.com">
 												<p className="mr-2">
 													brittonkdeets@gmail.com

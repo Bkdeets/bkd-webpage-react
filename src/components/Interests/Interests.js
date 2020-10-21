@@ -71,21 +71,24 @@ const Interests = () => {
 					<p className="mt-4 text-xl font-bold mx-16 mb-1">
 						Interests
 					</p>
-					<div className="flex flex-center mx-auto mb-4">
-						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+					<div className="flex flex-center mx-auto mb-4 flex-wrap sm-max:justify-center">
+						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
 							Surfing
 						</p>
-						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
 							Reading
 						</p>
-						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
 							Soccer
 						</p>
-						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
 							Learning
 						</p>
+						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
+							Photography
+						</p>
 					</div>
-					<div className="px-8 pb-8 flex flex-col flex-1 w-7/12 mx-auto">
+					<div className="px-8 pb-8 flex flex-col flex-1 w-7/12 mx-auto sm-max:px-4 sm-max:w-5/6">
 						<ItemsCarousel
 							requestToChangeActive={setActiveItemIndex}
 							activeItemIndex={activeItemIndex}
