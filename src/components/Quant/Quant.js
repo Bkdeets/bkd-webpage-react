@@ -22,9 +22,9 @@ const Portfolio = () => {
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Heroku</p>
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Alpaca</p>
                     </div>
-					<div className="px-32 pb-8 flex flex-col flex-1">
-                        <div className="flex flex-row justify-center">
-                            <div className="w-1/2 m-2 flex flex-col">
+					<div className="px-32 pb-8 flex flex-col flex-1 sm-max:px-8">
+                        <div className="flex flex-row justify-center flex-wrap">
+                            <div className="w-1/2 m-2 flex flex-col flex-wrap sm-max:w-full sm-max:mx-auto">
                                 <div className="mb-2 flex px-2 pb-2 justify-end">
                                     <img className="rounded h-auto w-32 m-2" src={alpacaLogo} />
                                     <img className="rounded h-auto w-32 m-2" src={blueshiftLogo} />
@@ -34,8 +34,8 @@ const Portfolio = () => {
                                     <img className="rounded h-auto w-32 m-2" src={pythonLogo} />
                                 </div>
                             </div>
-                            <div className="w-1/2 m-2 rounded">
-                                <img className="rounded" src={stockChart} />
+                            <div className="w-1/2 m-2 rounded sm-max:w-full sm-max:mx-auto sm-max:hidden">
+                                <img className="rounded sm-max:mx-auto" src={stockChart} />
                             </div>
                         </div>
                     </div>

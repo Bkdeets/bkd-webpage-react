@@ -14,14 +14,14 @@ const Main = () => {
 					<div className="p-8 flex flex-row flex-1 flex-wrap w-full">
 						<div className="w-3/12 sm-max:w-full">
 							<img
-								className="rounded-circle object-cover h-48 rounded-full sm-max:h-24"
+								className="rounded-circle object-cover h-48 rounded-full sm-max:mx-auto"
 								src={bioPhoto}
 							/>
 						</div>
-						<div className="w-9/12 sm-max:w-full">
-							<div className="align-middle text-left">
+						<div className="w-9/12 sm-max:w-full sm-max:text-center">
+							<div className="align-middle text-left sm-max:text-center">
 								<div className="text-primary mt-4">
-									<p className="text-lg text-left">
+									<p className="text-lg text-left sm-max:text-center">
 										Britton Deets
 									</p>
 									<p className="font-light text-sm">
