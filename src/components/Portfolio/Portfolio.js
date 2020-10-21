@@ -10,9 +10,9 @@ import Interests from '../Interests/Interests';
 const Portfolio = () => {
     return (
         <Fragment>
+            <Current />
             <Pinpoint />
             <Quant />
-            <Current />
             <Education />
             <Interests />
         </Fragment>

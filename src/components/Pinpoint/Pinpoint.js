@@ -32,8 +32,8 @@ const Portfolio = () => {
                     </div>
                     <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b w-full">
                             <p>
-                            I am currently working on converting pinpointsurf.com from a Jekyl site to a React application.
-                                My focuses include increasing the performance of the application and creating a consistent design theme.
+                                I am currently working as a freelancer on converting pinpointsurf.com from a Jekyl site to a React application.
+                                My areas of focus include increasing the performance of the application and creating a consistent design theme.
                                 There is a substantial amount of wind, wave, and surf data that we need to sort and display without 
                                 significant load times which requires efficient and intelligent manipulation of the data.
                                 This is a work in progress and I plan on updating here.

@@ -44,8 +44,8 @@ const Education = () => {
                         </div>
                         <div className="mx-auto mt-4">
                             <p>
-                                At UNCW I studied in the University Honors program and earned a double major in
-                                Computer Science and Finance. During my time in college I worked at the Technology Assistance Center, 
+                                At UNCW I studied in the University Honors program and earned a two degrees, one in
+                                Computer Science and one in Business Administration - Finance. During my time in college I worked at the Technology Assistance Center, 
                                 interned at Liquidnet in New York City, and thrived in the academic environment. I participated as a shortboarder on the 
                                 Surf Team, and lead the Surf Club as the president my senior year after holding numerous
                                 officer positions.
