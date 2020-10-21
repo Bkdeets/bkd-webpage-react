@@ -12,9 +12,9 @@ const Portfolio = () => {
 		<div id="skills" className="w-full">
 			<div
 				id="top"
-				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial"
+				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0"
 			>
-				<div className="flex flex-col bg-teal w-full mx-auto rounded-md">
+				<div className="flex flex-col bg-teal w-full mx-auto sm:rounded-md md:rounded-md ld:rounded-md">
                     <p className="mt-4 text-xl font-bold mx-16 mb-1">Quantitative Investing</p>
                     <div className="flex flex-center mx-auto mb-4">
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Python</p>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b w-full">
+                    <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b w-full sm-max:px-4">
                             <p>
                                 One of my interests is stock trading and automated investing. I have developed multiple stock trading 
                                 strategies and created backtesting frameworks to evaluate them. I use the Alpaca API to live trade

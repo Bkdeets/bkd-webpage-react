@@ -8,18 +8,18 @@ const Main = () => {
 		<div id="skills" className="w-full">
 			<div
 				id="top"
-				className="w-full mx-auto px-32 pt-16 pb-32 bg-primary flex flex-row flex-initial"
+				className="w-full mx-auto px-32 pt-16 pb-32 bg-primary flex flex-row flex-initial sm-max:px-0 sm-max:pt-0"
 			>
-				<div className="flex flex-col bg-light-blue rounded-md w-full mx-auto">
+				<div className="flex flex-col bg-light-blue sm:rounded-md md:rounded-md ld:rounded-md w-full mx-auto">
 					<div className="p-8 flex flex-row flex-1 flex-wrap w-full">
-						<div className="w-3/12">
+						<div className="w-3/12 sm-max:w-full">
 							<img
-								className="rounded-circle object-cover h-48 rounded-full"
+								className="rounded-circle object-cover h-48 rounded-full sm-max:h-24"
 								src={bioPhoto}
 							/>
 						</div>
-						<div className="block overflow-hidden h-48 w-9/12">
-							<div className="table-cell align-middle text-left">
+						<div className="w-9/12 sm-max:w-full">
+							<div className="align-middle text-left">
 								<div className="text-primary mt-4">
 									<p className="text-lg text-left">
 										Britton Deets
@@ -36,7 +36,7 @@ const Main = () => {
 											high-quality software
 										</p>
 
-										<div className="flex text-sm mt-4">
+										<div className="flex text-sm mt-4 flex-wrap">
 											<a href="mailto:brittonkdeets@gmail.com">
 												<p className="mr-2">
 													brittonkdeets@gmail.com
