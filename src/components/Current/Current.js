@@ -10,7 +10,7 @@ const Current = () => {
 				id="top"
 				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0 "
 			>
-				<div className="flex flex-col bg-yellow w-full mx-auto sm:rounded-md md:rounded-md ld:rounded-md">
+				<div className="flex flex-col bg-yellow w-full mx-auto sm:rounded-md md:rounded-md lg:rounded-md">
 					<p className="mt-4 text-xl font-bold mx-16 mb-1">
 						nCino - Associate Software Engineer
 					</p>

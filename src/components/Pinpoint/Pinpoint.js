@@ -11,7 +11,7 @@ const Portfolio = () => {
 				id="top"
 				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0"
 			>
-				<div className="flex flex-col bg-salmon w-full mx-auto sm:rounded-md md:rounded-md ld:rounded-md">
+				<div className="flex flex-col bg-salmon w-full mx-auto sm:rounded-md md:rounded-md lg:rounded-md">
                     <p className="mt-4 text-xl font-bold mx-16 mb-1">Pinpoint Surf</p>
                     <div className="flex flex-center mx-auto mb-4">
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">React</p>

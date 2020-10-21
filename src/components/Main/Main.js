@@ -10,7 +10,7 @@ const Main = () => {
 				id="top"
 				className="w-full mx-auto px-32 pt-16 pb-32 bg-primary flex flex-row flex-initial sm-max:px-0 sm-max:pt-0"
 			>
-				<div className="flex flex-col bg-light-blue sm:rounded-md md:rounded-md ld:rounded-md w-full mx-auto">
+				<div className="flex flex-col bg-light-blue sm:rounded-md md:rounded-md lg:rounded-md w-full mx-auto">
 					<div className="p-8 flex flex-row flex-1 flex-wrap w-full">
 						<div className="w-3/12 sm-max:w-full">
 							<img
