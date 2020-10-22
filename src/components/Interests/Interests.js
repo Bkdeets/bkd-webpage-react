@@ -67,7 +67,7 @@ const Interests = () => {
 				id="top"
 				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0"
 			>
-				<div className="flex flex-col bg-green w-full mx-auto sm:rounded-md md:rounded-md lg:rounded-md">
+				<div className="flex flex-col bg-green w-full mx-auto sm-max:rounded-none rounded-lg shadow-lg">
 					<p className="mt-4 text-xl font-bold mx-16 mb-1">
 						Interests
 					</p>
@@ -103,7 +103,7 @@ const Interests = () => {
 						</ItemsCarousel>
 					</div>
 
-					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b w-full sm-max:px-4">
+					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg w-full sm-max:px-4">
 						<p className="text-left mx-auto">
 							Outside of a work context I'm a huge surf nerd,
 							sci-fi reader, soccer player, and more. I love

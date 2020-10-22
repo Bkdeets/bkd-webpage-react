@@ -14,7 +14,7 @@ const Portfolio = () => {
 				id="top"
 				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0"
 			>
-				<div className="flex flex-col bg-teal w-full mx-auto sm:rounded-md md:rounded-md lg:rounded-md">
+				<div className="flex flex-col bg-teal w-full mx-auto sm-max:rounded-none rounded-lg shadow-lg">
                     <p className="mt-4 text-xl font-bold mx-16 mb-1">Quantitative Investing</p>
                     <div className="flex flex-center mx-auto mb-4">
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Python</p>
@@ -22,9 +22,9 @@ const Portfolio = () => {
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Heroku</p>
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Alpaca</p>
                     </div>
-					<div className="px-32 pb-8 flex flex-col flex-1 sm-max:px-8">
+					<div className="px-24 pb-8 flex flex-col flex-1 sm-max:px-8">
                         <div className="flex flex-row justify-center flex-wrap">
-                            <div className="w-1/2 m-2 flex flex-col flex-wrap sm-max:w-full sm-max:mx-auto sm-max:hidden">
+                            <div className="w-1/2 flex flex-col flex-wrap sm-max:w-full sm-max:mx-auto sm-max:hidden">
                                 <div className="mb-2 flex px-2 pb-2 justify-end">
                                     <img className="rounded h-auto w-32 m-2" src={alpacaLogo} />
                                     <img className="rounded h-auto w-32 m-2" src={blueshiftLogo} />
@@ -34,12 +34,12 @@ const Portfolio = () => {
                                     <img className="rounded h-auto w-32 m-2" src={pythonLogo} />
                                 </div>
                             </div>
-                            <div className="w-1/2 m-2 rounded sm-max:w-full sm-max:mx-auto">
+                            <div className="w-1/2 rounded sm-max:w-full sm-max:mx-auto">
                                 <img className="rounded sm-max:mx-auto" src={stockChart} />
                             </div>
                         </div>
                     </div>
-                    <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b w-full sm-max:px-4">
+                    <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg w-full sm-max:px-4">
                             <p>
                                 One of my interests is stock trading and automated investing. I have developed multiple stock trading 
                                 strategies and created backtesting frameworks to evaluate them. I use the Alpaca API to live trade

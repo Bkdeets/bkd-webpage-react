@@ -10,7 +10,7 @@ const Current = () => {
 				id="top"
 				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0 "
 			>
-				<div className="flex flex-col bg-yellow w-full mx-auto sm:rounded-md md:rounded-md lg:rounded-md">
+				<div className="flex flex-col bg-yellow w-full mx-auto rounded-lg sm-max:rounded-none shadow-lg">
 					<p className="mt-4 text-xl font-bold mx-16 mb-1">
 						nCino - Associate Software Engineer
 					</p>
@@ -38,7 +38,7 @@ const Current = () => {
 							</div>
 						</div>
 					</div>
-					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b w-full sm-max:px-4">
+					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg w-full sm-max:px-4">
                         <p className="font-bold mb-1">2020 Release 1 - Commercial Pricing</p>
 						<p className="pb-2 mb-2 text-left mx-auto">
 							Planned and implemented a high-priority new pricing and
