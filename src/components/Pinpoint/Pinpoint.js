@@ -30,7 +30,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg w-full sm-max:px-4">
+                    <div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
                             <p>
                                 I am currently working as a freelancer on converting pinpointsurf.com from a Jekyl site to a React application.
                                 My areas of focus include increasing the performance of the application and creating a consistent design theme.

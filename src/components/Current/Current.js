@@ -38,7 +38,7 @@ const Current = () => {
 							</div>
 						</div>
 					</div>
-					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg w-full sm-max:px-4">
+					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
                         <p className="font-bold mb-1">2020 Release 1 - Commercial Pricing</p>
 						<p className="pb-2 mb-2 text-left mx-auto">
 							Planned and implemented a high-priority new pricing and

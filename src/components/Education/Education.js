@@ -25,7 +25,7 @@ const Education = () => {
 							</div>
 						</div>
 					</div>
-					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg w-full sm-max:px-4">
+					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
                         <div className="flex justify-between w-3/4 mx-auto flex-wrap sm-max:w-full">
                             <div className="mx-12 sm-max:mx-1 sm-max:text-center sm-max:mx-auto">
                                 <p className="font-bold mb-1">

@@ -22785,6 +22785,10 @@ $skills-secondary:  rgb(234, 176, 154); */
   background-color: #89cc9b
 }
 
+.bg-lavender {
+  background-color: #b8c2ff;
+}
+
 @media (max-width: 1279px) {
   .xl-max\:container {
     width: 100%;
