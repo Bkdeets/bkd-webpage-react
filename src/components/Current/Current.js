@@ -30,6 +30,15 @@ const Current = () => {
 						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
 							Agile
 						</p>
+						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+							Python
+						</p>
+						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+							AWS
+						</p>
+						<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
+							JS
+						</p>
 					</div>
 					<div className="px-8 pb-8 flex flex-col flex-1">
 						<div className="flex flex-row flex-1">
@@ -39,7 +48,14 @@ const Current = () => {
 						</div>
 					</div>
 					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
-                        <p className="font-bold mb-1">2020 Release 1 - Commercial Pricing</p>
+						<p className="font-bold mb-1">2020 Release 2 - Commercial Pricing</p>
+						<p className="pb-2 mb-2 text-left mx-auto">
+							Further developed the nCino Pricing and Profitability solution. Helped develop an orchestratrion framework
+							to send data from the Salesforce environment and execute profitability models in our AWS envirnoment. Lead
+							the effort to create AWS resources, written in Python, for the pricing and profitability team.
+						</p>
+						
+						<p className="font-bold mb-1">2020 Release 1 - Commercial Pricing</p>
 						<p className="pb-2 mb-2 text-left mx-auto">
 							Planned and implemented a high-priority new pricing and
 							profitability feature using Lightning Web Components
@@ -55,11 +71,18 @@ const Current = () => {
 						</p>
 
                         <p className="font-bold mb-1">2019 Release 1 - Security Initiative </p>
-						<p className="text-left mx-auto">
+						<p className="pb-2 mb-2 text-left mx-auto">
 							Helped develop
 							and maintain secure coding practices at nCino.
 							Patched critical security flaws and upgraded
 							insecure dependencies.
+						</p>
+
+						<p className="font-bold mb-1">2018 Release 2 - Internship </p>
+						<p className="text-left mx-auto">
+							Learned software development best practices, versioning, and how to effectively
+							participate in a scrum team while contributing to the Retail Banking codebase in 
+							Apex and Javascript.
 						</p>
 					</div>
 				</div>

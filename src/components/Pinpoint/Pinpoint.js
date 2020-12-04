@@ -17,6 +17,7 @@ const Portfolio = () => {
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">React</p>
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">JS</p>
                         <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">TailwindCSS</p>
+                        <p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">Firebase</p>
                     </div>
 					<div className="px-8 pb-8 flex flex-col flex-1">
                         <div className="flex flex-row flex-wrap justify-between">

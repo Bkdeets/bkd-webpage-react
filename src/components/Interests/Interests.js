@@ -105,7 +105,7 @@ const Interests = () => {
 
 					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
 						<p className="text-left mx-auto">
-							Outside of a work context I'm a huge surf nerd,
+							I'm a huge surf nerd,
 							sci-fi reader, soccer player, and more. I love
 							learning new things and experiencing the world.
 						</p>
