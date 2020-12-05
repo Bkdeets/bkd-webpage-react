@@ -17,6 +17,10 @@ const Main = () => {
 								className="rounded-circle object-cover h-48 rounded-full sm-max:mx-auto sm-max:h-32"
 								src={bioPhoto}
 							/>
+							{/* <img
+								className="object-cover h-48 sm-max:mx-auto sm-max:h-32"
+								src={bioRockPhoto}
+							/> */}
 						</div>
 						<div className="w-9/12 sm-max:w-full sm-max:text-center">
 							<div className="align-middle text-left sm-max:text-center">

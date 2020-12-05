@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../../tailwind.output.css";
 import ItemsCarousel from "react-items-carousel";
+import InfoSegment from "../InfoSegment/InfoSegment";
 
 const Interests = () => {
 	const [activeItemIndex, setActiveItemIndex] = useState(0);
@@ -27,8 +28,8 @@ const Interests = () => {
 
 	const rightChev = (
 		<div className="mx-2">
-            <svg                
-                className="stroke-current text-gray-400"
+			<svg
+				className="stroke-current text-gray-400"
 				xmlns="http://www.w3.org/2000/svg"
 				width="40"
 				height="40"
@@ -46,7 +47,7 @@ const Interests = () => {
 	const leftChev = (
 		<div className="mx-2">
 			<svg
-                className="stroke-current text-gray-400"
+				className="stroke-current text-gray-400"
 				xmlns="http://www.w3.org/2000/svg"
 				width="40"
 				height="40"
@@ -62,57 +63,50 @@ const Interests = () => {
 	);
 
 	return (
-		<div id="skills" className="w-full">
-			<div
-				id="top"
-				className="w-full mx-auto px-8 pt-4 pb-32 flex flex-row flex-initial sm-max:px-0"
-			>
-				<div className="flex flex-col bg-lavender w-full mx-auto sm-max:rounded-none rounded-lg shadow-lg">
-					<p className="mt-4 text-xl font-bold mx-16 mb-1">
-						Interests
+		<InfoSegment>
+			<div className="flex flex-col bg-lavender w-full mx-auto sm-max:rounded-none rounded-lg shadow-lg">
+				<p className="mt-4 text-xl font-bold mx-16 mb-1">Interests</p>
+				<div className="flex flex-center mx-auto mb-4 flex-wrap sm-max:justify-center">
+					<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
+						Surfing
 					</p>
-					<div className="flex flex-center mx-auto mb-4 flex-wrap sm-max:justify-center">
-						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
-							Surfing
-						</p>
-						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
-							Reading
-						</p>
-						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
-							Soccer
-						</p>
-						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
-							Learning
-						</p>
-						<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
-							Photography
-						</p>
-					</div>
-					<div className="px-8 pb-8 flex flex-col flex-1 w-7/12 mx-auto sm-max:px-4 sm-max:w-5/6">
-						<ItemsCarousel
-							requestToChangeActive={setActiveItemIndex}
-							activeItemIndex={activeItemIndex}
-							numberOfCards={1}
-							gutter={20}
-							leftChevron={leftChev}
-							rightChevron={rightChev}
-							outsideChevron
-							chevronWidth={chevronWidth}
-						>
-							{images}
-						</ItemsCarousel>
-					</div>
+					<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
+						Reading
+					</p>
+					<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
+						Soccer
+					</p>
+					<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
+						Learning
+					</p>
+					<p className="text-sm font-light px-2 m-1 rounded bg-gray-400">
+						Photography
+					</p>
+				</div>
+				<div className="px-8 pb-8 flex flex-col flex-1 w-7/12 mx-auto sm-max:px-4 sm-max:w-5/6">
+					<ItemsCarousel
+						requestToChangeActive={setActiveItemIndex}
+						activeItemIndex={activeItemIndex}
+						numberOfCards={1}
+						gutter={20}
+						leftChevron={leftChev}
+						rightChevron={rightChev}
+						outsideChevron
+						chevronWidth={chevronWidth}
+					>
+						{images}
+					</ItemsCarousel>
+				</div>
 
-					<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
-						<p className="text-left mx-auto">
-							I'm a huge surf nerd,
-							sci-fi reader, soccer player, and more. I love
-							learning new things and experiencing the world.
-						</p>
-					</div>
+				<div className="mx-auto p-12 px-32 text-left bg-gray-300 rounded-b-lg sm-max:rounded-none w-full sm-max:px-4">
+					<p className="text-left mx-auto">
+						I'm a huge surf nerd, sci-fi reader, soccer player, and
+						more. I love learning new things and experiencing the
+						world.
+					</p>
 				</div>
 			</div>
-		</div>
+		</InfoSegment>
 	);
 };
 

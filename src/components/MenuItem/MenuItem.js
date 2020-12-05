@@ -8,7 +8,7 @@ const MenuItem = (props) => {
                 `rounded-full flex-1 
                 sm-max:w-auto sm-max:text-xs sm-max:rounded
                 hover:${props.hoverColor} 
-                border border-black mt-4 mx-2 p-2 sm-max:mx-1 sm-max:p-1
+				border border-black mt-4 mx-2 p-2 sm-max:mx-1 sm-max:p-1
                 ${props.isActive ? props.hoverColor : ""}
                 `
             }
