@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import "../../tailwind.output.css";
+import TagList from "../TagList/TagList";
 
 import pinpointOld from "../../assets/pinpointOld.png";
 import pinpointNew from "../../assets/pinpointNew.png";
@@ -12,20 +13,14 @@ const Portfolio = () => {
 				<p className="mt-4 text-xl font-bold mx-16 mb-1">
 					Pinpoint Surf
 				</p>
-				<div className="flex flex-center mx-auto mb-4">
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						React
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						JS
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						TailwindCSS
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Firebase
-					</p>
-				</div>
+				<TagList
+					items={[
+						"React",
+						"JS",
+						"TailwindCSS",
+						"Firebase"
+					]}
+				></TagList>
 				<div className="px-8 pb-8 flex flex-col flex-1">
 					<div className="flex flex-row flex-wrap justify-between">
 						<div className="w-1/2 p-2 sm-max:w-full">

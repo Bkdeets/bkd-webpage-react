@@ -7,6 +7,7 @@ import polygonApi from "../../assets/polygonApi.png";
 import pythonLogo from "../../assets/pythonLogo.png";
 import stockChart from "../../assets/stockChart.png";
 import InfoSegment from "../InfoSegment/InfoSegment";
+import TagList from "../TagList/TagList";
 
 const Portfolio = () => {
 	return (
@@ -15,20 +16,14 @@ const Portfolio = () => {
 				<p className="mt-4 text-xl font-bold mx-16 mb-1">
 					Quantitative Investing
 				</p>
-				<div className="flex flex-center mx-auto mb-4">
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Python
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Zipline
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Heroku
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Alpaca
-					</p>
-				</div>
+                <TagList
+					items={[
+						"Python",
+						"Zipline",
+						"Heroku",
+						"Alpaca"
+					]}
+				></TagList>
 				<div className="px-24 pb-8 flex flex-col flex-1 sm-max:px-8">
 					<div className="flex flex-row justify-center flex-wrap">
 						<div className="w-1/2 flex flex-col flex-wrap sm-max:w-full sm-max:mx-auto sm-max:hidden">

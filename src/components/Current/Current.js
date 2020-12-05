@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import "../../tailwind.output.css";
-import InfoSegment from '../InfoSegment/InfoSegment';
+import InfoSegment from "../InfoSegment/InfoSegment";
 
 import nCinoBanner from "../../assets/nCinoBanner.jpeg";
+import TagList from "../TagList/TagList";
 
 const Current = () => {
 	return (
@@ -11,32 +12,19 @@ const Current = () => {
 				<p className="mt-4 text-xl font-bold mx-16 mb-1">
 					nCino - Associate Software Engineer
 				</p>
-				<div className="flex flex-center mx-auto mb-4">
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Angular
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Apex
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						LWC
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						OOP
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Agile
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Python
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						AWS
-					</p>
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						JS
-					</p>
-				</div>
+				<TagList
+					items={[
+						"Angular",
+						"Apex",
+						"LWC",
+						"OOP",
+						"Agile",
+						"Python",
+						"AWS",
+						"JS",
+						"TS",
+					]}
+				></TagList>
 				<div className="px-8 pb-8 flex flex-col flex-1">
 					<div className="flex flex-row flex-1">
 						<div className="w-full mx-auto">

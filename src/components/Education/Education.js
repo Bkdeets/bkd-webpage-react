@@ -3,6 +3,7 @@ import "../../tailwind.output.css";
 
 import uncewTeal from "../../assets/uncwTeal.jpg";
 import InfoSegment from "../InfoSegment/InfoSegment";
+import TagList from "../TagList/TagList";
 
 const Education = () => {
 	return (
@@ -11,11 +12,7 @@ const Education = () => {
 				<p className="mt-4 text-xl font-bold mx-16 mb-1 sm-max:mx-2">
 					University of North Carolina at Wilmington
 				</p>
-				<div className="flex flex-center mx-auto mb-4">
-					<p className="text-sm font-light px-2 mx-1 rounded bg-gray-400">
-						Honors College
-					</p>
-				</div>
+				<TagList items={["Honors College"]}></TagList>
 				<div className="px-8 pb-8 flex flex-col flex-1 sm-max:px-4">
 					<div className="flex flex-row flex-1">
 						<div className="w-full mx-auto">
